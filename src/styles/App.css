@@ -167,15 +167,15 @@ button {
     text-align: center; }
   .menu .mens-box:hover > .mens-items {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     background: whitesmoke; }
   .menu .womens-box:hover > .womens-items {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     background: whitesmoke; }
   .menu .kids-box:hover > .kids-items {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     background: whitesmoke; }
 
 li:hover {
@@ -187,27 +187,30 @@ li:hover {
   position: absolute;
   color: red;
   background-color: pink;
-  height: 30vh;
+  height: 50vh;
   left: -10vw;
   width: 100vw;
-  top: 90%; }
+  top: 90%;
+  padding-top: 30px; }
 
 .womens-items {
   display: none;
   position: absolute;
   color: red;
   background-color: pink;
-  height: 30vh;
+  height: 50vh;
   left: -10vw;
   width: 100vw;
-  top: 90%; }
+  top: 90%;
+  padding: 20px; }
 
 .kids-items {
   display: none;
   position: absolute;
   color: red;
   background-color: pink;
-  height: 30vh;
+  height: 50vh;
   left: -10vw;
   width: 100vw;
-  top: 90%; }
+  top: 90%;
+  padding: 20px; }

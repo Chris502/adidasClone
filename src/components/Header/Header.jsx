@@ -7,6 +7,10 @@ class Header extends Component {
         this.state = {}
     }
     render() {
+        let style ={
+         width: 17 + 'vw',
+       
+    }
         return (
             <div className="header-main">
 
@@ -21,16 +25,32 @@ class Header extends Component {
                     <ul className='menu'>
                         <li className='mens-box'><strong>MEN</strong>
                             <div className='mens-items'>
-                                <p>test</p>
+                                <div style={style}>
+                                <ul>
+                                    <h3>Featured</h3>
+                                </ul>
+                                </div>
+                                <div style={style}>b</div>
+                                <div style={style}>c</div>
+                                <div style={style}>d</div>
+                                <div style={style}>f</div>
                             </div></li>
                         <li className='womens-box'><strong>WOMEN</strong>
                             <div className='womens-items'>
-                                <p>test1</p>
+                            <div style={style}>a</div>
+                                <div style={style}>b</div>
+                                <div style={style}>c</div>
+                                <div style={style}>d</div>
+                                <div style={style}>f</div>
                             </div>
                         </li>
                         <li className='kids-box'><strong>KIDS</strong>
                             <div className='kids-items'>
-                                <p>test2</p>
+                            <div style={style}>a</div>
+                                <div style={style}>b</div>
+                                <div style={style}>c</div>
+                                <div style={style}>d</div>
+                                <div style={style}>f</div>
                             </div>
                         </li>
                     </ul>
