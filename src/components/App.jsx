@@ -7,7 +7,6 @@ export default class App extends Component {
 		return (
 			<div className='App'>
 				<Header/>
-				<p>Testing!</p>
 			</div>
 		)
 	}

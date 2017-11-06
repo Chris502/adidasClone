@@ -1,25 +1,5 @@
-.header-main {
-  color: pink;
-  background: black;
-  height: 11vh; }
-
-.logo-head {
-  margin-left: 45px;
-  margin-top: 5px;
-  height: 90%; }
-
-.login-bar {
-  height: 30%;
-  width: 80%;
-  background: #000000;
-  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #000000, #434343);
-  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #000000, #434343);
-  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  z-index: 1;
-  float: right; }
-
+@import url("https://fonts.googleapis.com/css?family=Poppins");
+@import url("https://fonts.googleapis.com/css?family=Rubik");
 html, body, div, span, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 abbr, address, cite, code,
@@ -114,3 +94,77 @@ input, select {
 
 button {
   outline: none; }
+
+.header-main {
+  background: black;
+  height: 11vh;
+  position: relative; }
+
+.logo-head {
+  margin-left: 45px;
+  margin-top: 5px;
+  height: 90%; }
+
+.login-bar {
+  position: absolute;
+  height: 40%;
+  width: 80%;
+  background: #000000;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #000000, #434343);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #000000, #434343);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  right: 0;
+  top: 0;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: row;
+  padding-right: 5%; }
+
+.tracker {
+  font-size: .7rem;
+  color: gray;
+  font-family: "Poppins", sans-serif;
+  padding-right: 5px;
+  padding-top: 10px; }
+
+.news-letter {
+  font-size: .8rem;
+  padding-left: 5px;
+  padding-right: 5px;
+  color: whitesmoke;
+  font-family: "Poppins", sans-serif;
+  padding-top: 10px; }
+
+.news-letter:hover {
+  background: whitesmoke;
+  color: black; }
+
+.login-link {
+  font-size: .7rem;
+  font-family: "Poppins", sans-serif;
+  padding-top: 10px; }
+
+.menu-div {
+  color: whitesmoke;
+  position: absolute;
+  bottom: 0;
+  width: 80%;
+  display: flex;
+  margin-left: 20%; }
+
+.menu {
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  color: whitesmoke; }
+  .menu li {
+    padding: 9px;
+    font-family: "Rubik", sans-serif;
+    text-align: center; }
+
+li:hover {
+  background: whitesmoke;
+  color: black; }
