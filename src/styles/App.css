@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Poppins");
 @import url("https://fonts.googleapis.com/css?family=Rubik");
+@import url("https://fonts.googleapis.com/css?family=Quicksand");
 html, body, div, span, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 abbr, address, cite, code,
@@ -185,32 +186,57 @@ li:hover {
 .mens-items {
   display: none;
   position: absolute;
-  color: red;
+  color: black;
   background-color: pink;
+  left: -10vw;
+  width: 100vw;
+  top: 90%;
+  padding-top: 30px;
+  padding-left: 30px; }
+  .mens-items h3 {
+    font-family: "Rubik", sans-serif; }
+
+.womens-items {
+  display: none;
+  position: absolute;
+  color: black;
   height: 50vh;
   left: -10vw;
   width: 100vw;
   top: 90%;
   padding-top: 30px; }
 
-.womens-items {
-  display: none;
-  position: absolute;
-  color: red;
-  background-color: pink;
-  height: 50vh;
-  left: -10vw;
-  width: 100vw;
-  top: 90%;
-  padding: 20px; }
-
 .kids-items {
   display: none;
   position: absolute;
-  color: red;
-  background-color: pink;
+  color: black;
   height: 50vh;
   left: -10vw;
   width: 100vw;
   top: 90%;
-  padding: 20px; }
+  padding-top: 30px; }
+
+.featured-list h3 {
+  font-size: 1.1rem;
+  margin-bottom: 10px; }
+
+.featured-list li {
+  text-align: left;
+  list-style: none;
+  padding-left: 80px;
+  font-size: 15px;
+  font-family: "Quicksand", sans-serif;
+  padding-top: 0;
+  margin: 0; }
+
+.shoe-list h3 {
+  margin-left: -20px; }
+
+.apparel h3 {
+  margin-left: -10px; }
+
+.accessories h3 {
+  margin-left: 25px; }
+
+.sports h3 {
+  margin-left: -12px; }
