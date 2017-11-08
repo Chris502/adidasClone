@@ -169,15 +169,15 @@ button {
   .menu .mens-box:hover > .mens-items {
     display: flex;
     flex-direction: row;
-    background: whitesmoke; }
+    background: white; }
   .menu .womens-box:hover > .womens-items {
     display: flex;
     flex-direction: row;
-    background: whitesmoke; }
+    background: white; }
   .menu .kids-box:hover > .kids-items {
     display: flex;
     flex-direction: row;
-    background: whitesmoke; }
+    background: white; }
 
 li:hover {
   background: whitesmoke;
@@ -192,7 +192,8 @@ li:hover {
   width: 100vw;
   top: 90%;
   padding-top: 30px;
-  padding-left: 30px; }
+  padding-left: 30px;
+  padding-bottom: 20px; }
   .mens-items h3 {
     font-family: "Rubik", sans-serif; }
 
@@ -200,17 +201,17 @@ li:hover {
   display: none;
   position: absolute;
   color: black;
-  height: 50vh;
   left: -10vw;
   width: 100vw;
   top: 90%;
-  padding-top: 30px; }
+  padding-top: 30px;
+  padding-left: 30px;
+  padding-bottom: 20px; }
 
 .kids-items {
   display: none;
   position: absolute;
   color: black;
-  height: 50vh;
   left: -10vw;
   width: 100vw;
   top: 90%;
