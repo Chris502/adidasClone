@@ -294,6 +294,18 @@ li:hover {
 .accessories h3 {
   margin-left: 25px; }
 
+.brands-list h3 {
+  font-size: 1.1rem;
+  margin-bottom: 10px; }
+
+.brands-list li {
+  text-align: left;
+  list-style: none;
+  font-size: 13px;
+  font-family: "Quicksand", sans-serif;
+  padding-top: 0;
+  margin: 0; }
+
 .sports h3 {
   margin-left: -12px; }
 

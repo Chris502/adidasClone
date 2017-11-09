@@ -4,7 +4,8 @@ import soccer from './soccer.jpg'
 import running from './Running.png'
 import basketball from './basketball.jpg'
 import football from './football.jpg'
-
+import adidas from './adidas.svg'
+import first from './first.jpg'
 class Header extends Component {
     constructor() {
         super();
@@ -17,6 +18,10 @@ class Header extends Component {
         }
         let style2 = {
             width: 15 + 'vw',
+        }
+        let style3 = {
+            width: 18 + 'vw',
+            border: 0
         }
         return (
             <div className="header-main">
@@ -350,8 +355,22 @@ class Header extends Component {
                         </li>
                         <li className='brands-box'>BRANDS
                             <div className='brands-menu'>
-                                <div style={style2}>HeHes</div>
-                                <div style={style2}>HeHes</div>
+                                <div style={style3}>                               
+                                 <h3 style={{marginLeft:60}}><img src={adidas} style={{marginRight: 20 + 'px', fill: 'blue'}}/>originals</h3>
+                                <ul className='brands-list' style={{ marginLeft: 55, borderTop: 3 + 'px solid lightblue'}}>
+                                        <li></li>
+                                        <li><img src={first}/></li>
+                                        <li>Shoes</li>
+                                        <li>Apparel</li>
+                                        <li>Accessories</li>
+                                        <li>New Arrivals</li>
+                                        <li>--</li>
+                                        <li>SuperStar</li>
+                                        <li>Stan Smith</li>
+                                        <li>NMD</li>
+                                        <li>all Originals</li>
+                                    </ul>
+                                </div>
                                 <div style={style2}>HeHes</div>
                                 <div style={style2}>HeHes</div>
                                 <div style={style2}>HeHes</div>
