@@ -260,6 +260,15 @@ class Header extends Component {
                                     </div>
                             </div>
                         </li>
+                        <li className='sport-box'><strong>Sports</strong>
+                        <div className='sports-tab'>
+                        <div style={style}>haha</div>
+                        <div style={style}>haha</div>
+                        <div style={style}>haha</div>
+                        <div style={style}>haha</div>
+                        <div style={style}>haha</div>
+                        </div>
+                        </li>
                     </ul>
 
                 </div>

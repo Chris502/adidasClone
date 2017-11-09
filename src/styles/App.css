@@ -178,6 +178,10 @@ button {
     display: flex;
     flex-direction: row;
     background: white; }
+  .menu .sport-box:hover > .sports-tab {
+    display: flex;
+    flex-direction: row;
+    background: white; }
 
 li:hover {
   background: whitesmoke;
@@ -209,6 +213,15 @@ li:hover {
   padding-bottom: 20px; }
 
 .kids-items {
+  display: none;
+  position: absolute;
+  color: black;
+  left: -10vw;
+  width: 100vw;
+  top: 90%;
+  padding-top: 30px; }
+
+.sports-tab {
   display: none;
   position: absolute;
   color: black;
