@@ -193,11 +193,71 @@ class Header extends Component {
                         </li>
                         <li className='kids-box'><strong>KIDS</strong>
                             <div className='kids-items'>
-                            <div style={style}>a</div>
-                                <div style={style}>b</div>
-                                <div style={style}>c</div>
-                                <div style={style}>d</div>
-                                <div style={style}>f</div>
+                            <div style={style}>
+                            <ul className='featured-list'>
+                                    <h3>Featured</h3>
+                                    <li>New Arrivals</li>
+                                    <li>Best Sellers</li>
+                                    <li><strong>Sale - New Markdowns Added</strong></li>
+                                    <li><br/></li>
+                                    <li>EQT</li>
+                                    <li>Tubular</li>
+                                    <li>NMD</li>
+                                    <li>UltraBOOST</li>
+                                    <li>adidas x Reigning Champ</li>
+                                    <li>Winter Layers</li>
+                                </ul>
+                            </div>
+                                <div style={style}>
+                                <ul className='featured-list'>
+                                    <h4 className='kids-headers'>Youth
+                                   <br/>(8-14 Years)</h4>
+                                    <li>Original Shoes</li>
+                                    <li>Sport Shoes</li>
+                                    <li>All Shoes</li>
+                                    <li><span style={{"color":'gray'}}>--</span></li>
+                                    <li>Jackets & Vests</li>
+                                    <li>Hoodies & Sweatshirts</li>
+                                    <li>Track Suits & Warm Up</li>
+                                    <li>Tops & Tees</li>
+                                    <li>Pants</li>
+                                    <li>Shorts</li>
+                                    
+                                </ul><p style={{'fontSize': 14 + 'px', 'borderTop': 1+'px solid gray'}}>all Youth</p>
+                                </div>
+                                <div style={style}>
+                                <ul className='featured-list'>
+                                    <h4 className='kids-headers'>Children
+                                   <br/>(4-8 Years)</h4>
+                                    <li>Original Shoes</li>
+                                    <li>Sport Shoes</li>
+                                    <li>All Shoes</li>
+                                    <li><span style={{"color":'gray'}}>--</span></li>
+                                    <li>Jackets & Vests</li>
+                                    <li>Hoodies & Sweatshirts</li>
+                                    <li>Track Suits & Warm Up</li>
+                                    <li>Tops & Tees</li>
+                                    <li>Pants</li>
+                                    <li>Shorts</li>
+                                    
+                                </ul><p style={{'fontSize': 14 + 'px', 'borderTop': 1+'px solid gray'}}>all Children</p>
+                                </div>
+                                <div style={style}><ul className='featured-list'>
+                                    <h4 className='kids-headers'>Infant &
+                                   <br/>Toddlers<br/>(0-3 Years)</h4>
+                                    <li>Original Shoes</li>
+                                    <li>Sport Shoes</li>
+                                    <li>All Shoes</li>
+                                    </ul>
+                                    </div>
+                                <div style={style}><ul className='featured-list'>
+                                    <h4 className='kids-headers'>Accessories</h4>
+                                    <li>Balls</li>
+                                    <li>Backpacks & Bags</li>
+                                    <li>Socks</li>
+                                    <li>Hats & Beanies</li>
+                                    </ul>
+                                    </div>
                             </div>
                         </li>
                     </ul>
