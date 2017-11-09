@@ -348,6 +348,15 @@ class Header extends Component {
                                     </ul></div>
                             </div>
                         </li>
+                        <li className='brands-box'>BRANDS
+                            <div className='brands-menu'>
+                                <div style={style2}>HeHes</div>
+                                <div style={style2}>HeHes</div>
+                                <div style={style2}>HeHes</div>
+                                <div style={style2}>HeHes</div>
+                                <div style={style2}>HeHes</div>
+                            </div>
+                        </li>
                     </ul>
 
                 </div>
