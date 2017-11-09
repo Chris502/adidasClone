@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Poppins");
 @import url("https://fonts.googleapis.com/css?family=Rubik");
 @import url("https://fonts.googleapis.com/css?family=Quicksand");
+@import url("https://fonts.googleapis.com/css?family=Bungee");
 html, body, div, span, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 abbr, address, cite, code,
@@ -164,24 +165,29 @@ button {
   color: whitesmoke; }
   .menu li {
     padding: 9px;
-    font-family: "Rubik", sans-serif;
+    padding-bottom: 15px;
+    font-family: "Bungee", cursive;
     text-align: center; }
   .menu .mens-box:hover > .mens-items {
     display: flex;
     flex-direction: row;
-    background: white; }
+    background: white;
+    font-family: "Rubik", sans-serif; }
   .menu .womens-box:hover > .womens-items {
     display: flex;
     flex-direction: row;
-    background: white; }
+    background: white;
+    font-family: "Rubik", sans-serif; }
   .menu .kids-box:hover > .kids-items {
     display: flex;
     flex-direction: row;
-    background: white; }
+    background: white;
+    font-family: "Rubik", sans-serif; }
   .menu .sport-box:hover > .sports-tab {
     display: flex;
     flex-direction: row;
-    background: white; }
+    background: white;
+    font-family: "Rubik", sans-serif; }
 
 li:hover {
   background: whitesmoke;
@@ -198,8 +204,14 @@ li:hover {
   padding-top: 30px;
   padding-left: 30px;
   padding-bottom: 20px; }
+  .mens-items li {
+    font-size: 10px; }
   .mens-items h3 {
     font-family: "Rubik", sans-serif; }
+  .mens-items li:hover {
+    color: lightblue;
+    background: white;
+    cursor: pointer; }
 
 .womens-items {
   display: none;
@@ -211,6 +223,10 @@ li:hover {
   padding-top: 30px;
   padding-left: 30px;
   padding-bottom: 20px; }
+  .womens-items li:hover {
+    color: lightblue;
+    background: white;
+    cursor: pointer; }
 
 .kids-items {
   display: none;
@@ -220,6 +236,10 @@ li:hover {
   width: 100vw;
   top: 90%;
   padding-top: 30px; }
+  .kids-items li:hover {
+    color: lightblue;
+    background: white;
+    cursor: pointer; }
 
 .sports-tab {
   display: none;
@@ -229,6 +249,10 @@ li:hover {
   width: 100vw;
   top: 90%;
   padding-top: 30px; }
+  .sports-tab li:hover {
+    color: lightblue;
+    background: white;
+    cursor: pointer; }
 
 .featured-list h3 {
   font-size: 1.1rem;
@@ -238,7 +262,7 @@ li:hover {
   text-align: left;
   list-style: none;
   padding-left: 80px;
-  font-size: 15px;
+  font-size: 13px;
   font-family: "Quicksand", sans-serif;
   padding-top: 0;
   margin: 0; }

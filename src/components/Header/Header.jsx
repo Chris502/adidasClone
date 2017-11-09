@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import logo from './adidas-black-vector-logo-400x400.png'
 import soccer from './soccer.jpg'
 import running from './Running.png'
+import basketball from './basketball.jpg'
+import football from './football.jpg'
 
 class Header extends Component {
     constructor() {
@@ -12,6 +14,9 @@ class Header extends Component {
         let style = {
             width: 17 + 'vw',
 
+        }
+        let style2 = {
+            width: 15 + 'vw',
         }
         return (
             <div className="header-main">
@@ -25,7 +30,7 @@ class Header extends Component {
                 </div>
                 <div className='menu-div'>
                     <ul className='menu'>
-                        <li className='mens-box'><strong>MEN</strong>
+                        <li className='mens-box'>MEN
                             <div className='mens-items'>
                                 <div style={style}>
                                     <ul className='featured-list'>
@@ -110,7 +115,7 @@ class Header extends Component {
                                     </ul>
                                 </div>
                             </div></li>
-                        <li className='womens-box'><strong>WOMEN</strong>
+                        <li className='womens-box'>WOMEN
                             <div className='womens-items'>
                                 <div style={style}>
                                     <ul className='featured-list'>
@@ -193,7 +198,7 @@ class Header extends Component {
                                 </div>
                             </div>
                         </li>
-                        <li className='kids-box'><strong>KIDS</strong>
+                        <li className='kids-box'>KIDS
                             <div className='kids-items'>
                                 <div style={style}>
                                     <ul className='featured-list'>
@@ -263,21 +268,84 @@ class Header extends Component {
                                 </div>
                             </div>
                         </li>
-                        <li className='sport-box'><strong>Sports</strong>
+                        <li className='sport-box' style={{ 'borderLeft': 1 + 'px solid lightgray' }}>SPORTS
                             <div className='sports-tab'>
-                                <div style={style}>
-                                <ul className='featured-list'>
+                                <div style={style2}>
+                                    <ul className='featured-list'>
                                         <h3>Running</h3>
-                                        <li><img src={running}/></li>
-                                        <li>Backpacks & Bags</li>
-                                        <li>Socks</li>
-                                        <li>Hats & Beanies</li>
+                                        <li><img src={running} /></li>
+                                        <li>Shoes</li>
+                                        <li>Apparel</li>
+                                        <li>Accessories</li>
+                                        <li><span style={{ 'color': 'grey' }}>--</span></li>
+                                        <li>UltraBOOST</li>
+                                        <li>AlpheBOUNCE</li>
+                                        <li>UltraBOOST X</li>
+                                        <li><span style={{ 'color': 'grey' }}>--</span></li>
                                     </ul>
+                                    <p style={{ 'fontSize': 14 + 'px' }}><strong>all Running</strong></p>
                                 </div>
-                                <div style={style}>haha</div>
-                                <div style={style}>haha</div>
-                                <div style={style}>haha</div>
-                                <div style={style}>haha</div>
+                                <div style={style2}>
+                                    <ul className='featured-list'>
+                                        <h3>Soccer</h3>
+                                        <li><img src={soccer} /></li>
+                                        <li>Shoes</li>
+                                        <li>Apparel</li>
+                                        <li>Accessories</li>
+                                        <li><span style={{ 'color': 'grey' }}>--</span></li>
+                                        <li>Ace</li>
+                                        <li>X</li>
+                                        <li>Nemeziz</li>
+                                        <li>Copa</li>
+                                        <li><span style={{ 'color': 'grey' }}>--</span></li>
+                                    </ul>
+                                    <p style={{ 'fontSize': 14 + 'px' }}><strong>all Soccer</strong></p>
+                                </div>
+                                <div style={style2}>
+                                    <ul className='featured-list'>
+                                        <h3>Basketball</h3>
+                                        <li><img src={basketball} /></li>
+                                        <li>Shoes</li>
+                                        <li>Apparel</li>
+                                        <li>Accessories</li>
+                                        <li><span style={{ 'color': 'grey' }}>--</span></li>
+                                        <li>James Harden</li>
+                                        <li>Damian Lillard</li>
+                                        <li>Crazy Explosive</li>
+                                        <li><span style={{ 'color': 'grey' }}>--</span></li>
+                                    </ul>
+                                    <p style={{ 'fontSize': 14 + 'px' }}><strong>all Basketball</strong></p></div>
+                                <div style={style2}>
+                                    <ul className='featured-list'>
+                                        <h3>Football</h3>
+                                        <li><img src={football} /></li>
+                                        <li>Cleats</li>
+                                        <li>Apparel</li>
+                                        <li>Accessories</li>
+                                        <li><span style={{ 'color': 'grey' }}>--</span></li>
+                                        <li>Compression</li>
+                                        <li>FREAK Cleats</li>
+                                        <li>AdiZero 5-Star</li>
+                                        <li><span style={{ 'color': 'grey' }}>--</span></li>
+                                    </ul>
+                                    <p style={{ 'fontSize': 14 + 'px' }}><strong>all Football</strong></p>
+                                </div>
+                                <div style={style2}>
+                                    <ul className='featured-list' style={{ 'borderLeft': 1 + 'px solid lightgray', marginLeft: 55}}>
+                                        <h3 style={{paddingLeft: 40 + 'px'}}>Other Sports</h3>
+                                        <li>Training</li>
+                                        <li>Baseball</li>
+                                        <li>Outdoor</li>
+                                        <li>Skateboarding</li>
+                                        <li>Snowboarding</li>
+                                        <li>Tennis</li>
+                                        <li>Golf</li>
+                                        <li>Hockey</li>
+                                        <li>Lacrosse</li>
+                                        <li>Volleyball</li>
+                                        <li>Yoga</li>
+                                        <li>Weightlifting</li>
+                                    </ul></div>
                             </div>
                         </li>
                     </ul>
