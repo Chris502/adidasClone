@@ -506,7 +506,8 @@ class Header extends Component {
                        
 
                     </ul>
-                    <input style={{position: 'absolute', right: 20, height:80+'%'}} placeholder='search'></input>
+                    <input style={{position: 'absolute', right: 0, height:80+'%'}} placeholder='seach'></input>
+                    <i className="fa fa-shopping-bag fa-2x icons" aria-hidden="true" style={{position: 'absolute', right:-40, height:80+'%'}}></i>
 
                 </div>
 
