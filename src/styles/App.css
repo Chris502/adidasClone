@@ -193,6 +193,11 @@ button {
     flex-direction: row;
     background: white;
     font-family: "Rubik", sans-serif; }
+  .menu .customize-box:hover > .customize-menu {
+    display: flex;
+    flex-direction: row;
+    background: white;
+    font-family: "Rubik", sans-serif; }
 
 li:hover {
   background: whitesmoke;
@@ -268,6 +273,19 @@ li:hover {
   top: 90%;
   padding-top: 30px; }
   .brands-menu li:hover {
+    color: lightblue;
+    background: white;
+    cursor: pointer; }
+
+.customize-menu {
+  display: none;
+  position: absolute;
+  color: black;
+  left: -10vw;
+  width: 100vw;
+  top: 90%;
+  padding-top: 30px; }
+  .customize-menu li:hover {
     color: lightblue;
     background: white;
     cursor: pointer; }
