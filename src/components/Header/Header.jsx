@@ -6,6 +6,9 @@ import basketball from './basketball.jpg'
 import football from './football.jpg'
 import adidas from './adidas.svg'
 import first from './first.jpg'
+import second from './second.png'
+import third from './third.jpg'
+
 class Header extends Component {
     constructor() {
         super();
@@ -22,6 +25,12 @@ class Header extends Component {
         let style3 = {
             width: 18 + 'vw',
             border: 0
+        }
+        let style4 ={
+            borderRight:1 +'px solid gray',
+            height: 400+'px',
+            width: 15 + 'vw',
+
         }
         return (
             <div className="header-main">
@@ -356,10 +365,26 @@ class Header extends Component {
                         <li className='brands-box'>BRANDS
                             <div className='brands-menu'>
                                 <div style={style3}>                               
-                                 <h3 style={{marginLeft:60}}><img src={adidas} style={{marginRight: 20 + 'px', fill: 'blue'}}/>originals</h3>
+                                 <h3 style={{marginLeft:60+'px'}}><img src={adidas} style={{marginRight: 20 + 'px', fill: 'blue'}}/>originals</h3>
                                 <ul className='brands-list' style={{ marginLeft: 55, borderTop: 3 + 'px solid lightblue'}}>
                                         <li></li>
                                         <li><img src={first}/></li>
+                                        <li>Men's Apparel</li>
+                                        <li>Women's Apparel</li>
+                                        <li>Kid's Apparel</li>
+                                        <li>New Arrivals</li>
+                                        <li>--</li>
+                                        <li>ZNE</li>
+                                        <li>adidas X Reigning Champ</li>
+                                        <li>--</li>
+                                        <li>all Athletics</li>
+                                    </ul>
+                                </div>
+                                <div style={style2}>
+                                <h3 style={{ paddingTop: 13, paddingLeft:4+'%', fontSize: 1 + 'rem',textAlign:'none',color: 'gray'}}>ADIDAS ATHLETICS</h3>
+                                <ul className='brands-list' style={{ marginLeft: 15, borderTop: 3 + 'px solid lightgray', width: 90+ '%'}}>
+                                        <li></li>
+                                        <li><img src={second}/></li>
                                         <li>Shoes</li>
                                         <li>Apparel</li>
                                         <li>Accessories</li>
@@ -371,9 +396,34 @@ class Header extends Component {
                                         <li>all Originals</li>
                                     </ul>
                                 </div>
-                                <div style={style2}>HeHes</div>
-                                <div style={style2}>HeHes</div>
-                                <div style={style2}>HeHes</div>
+                                <div style={style2}>
+                                <h3 style={{paddingLeft: 4+'%',fontSize: 1 + 'rem', color: 'lightgray'}}><img src={adidas}/>stella mccartney</h3>
+                                <ul className='brands-list' style={{ marginLeft: 15, borderTop: 3 + 'px solid lightgray', width: 90+'%'}}>
+                                        <li></li>
+                                        <li><img src={third}/></li>
+                                        <li>Men's Apparel</li>
+                                        <li>Women's Apparel</li>
+                                        <li>Kid's Apparel</li>
+                                        <li>New Arrivals</li>
+                                        <li>--</li>
+                                        <li>ZNE</li>
+                                        <li>adidas X Reigning Champ</li>
+                                        <li>--</li>
+                                        <li>all Athletics</li>
+                                    </ul>
+                                </div>
+                                <div style={style4}>
+                                <h2 style={{fontSize: 1.2+'rem',paddingTop: 5+'px', textAlign:'left',paddingLeft:23+'px',paddingBottom:10+'px'}}>COLLECTIONS</h2>
+                                <ul className='brands-list' style={{paddingLeft:15+'px'}}>
+                                        <li>EQT</li>
+                                        <li>Gazelle</li>
+                                        <li>Campus</li>
+                                        <li>Tubular</li>
+                                        <li>Iconics</li>
+                                        <li>--</li>
+                                        <li>adicolor Apparel</li>
+                                    </ul>
+                                </div>
                             </div>
                         </li>
                     </ul>
