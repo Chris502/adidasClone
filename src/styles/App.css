@@ -100,7 +100,9 @@ button {
 .header-main {
   background: black;
   height: 11vh;
-  position: relative; }
+  position: fixed;
+  top: 0;
+  width: 100%; }
 
 .logo-head {
   margin-left: 45px;
