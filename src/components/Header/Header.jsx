@@ -494,7 +494,7 @@ class Header extends Component {
                                         <li>Training</li>
                                         <li>--</li>
                                         <li>All Men's</li>
-                                        <li>All Women's</li>
+                                        <li>All Womens</li>
                                         <li>&nbsp;</li>
                                         <li>&nbsp;</li>
                                         <li>&nbsp;</li>
@@ -510,8 +510,6 @@ class Header extends Component {
                     <i className="fa fa-shopping-bag fa-2x icons" aria-hidden="true" style={{position: 'absolute', right:-40, height:80+'%'}}></i>
 
                 </div>
-
-
 
             </div>
         )
